@@ -57,23 +57,23 @@ Mở `run.ipynb` và Run All để benchmark 15 test case, xuất bảng thời 
 ## Cấu trúc Project
 ```
 CSC14003-Intro2AI-Hashiwokakero/
-├── run.py              # Chạy GUI
-├── run.ipynb           # Notebook benchmark
+├── run.py                  # Chạy GUI
+├── run.ipynb               # Notebook benchmark
 ├── requirements.txt
 └── Source/
-    ├── benchmark.py    # Logic benchmark
-    ├── cnf_encoder.py  # Mã hóa CNF, sinh biến cạnh, ràng buộc
-    ├── utils.py        # Đọc input, vẽ lưới ký tự, ghi output
+    ├── benchmark.py        # Logic benchmark
+    ├── cnf_encoder.py      # Mã hóa CNF, sinh biến cạnh, ràng buộc
+    ├── utils.py            # Đọc input, vẽ lưới ký tự, ghi output
     ├── gui/
-    │   ├── app.py      # Tkinter GUI (Single Solve, Benchmark)
-    │   └── display.py  # In bảng kết quả ở console
-    ├── solvers/
-    │   ├── pysat.py        # PySAT (CDCL)
-    │   ├── astar.py        # A* trên biến cầu
-    │   ├── backtracking.py # DPLL + Unit Propagation
-    │   └── bruteforce.py   # Vét cạn 3^|E|
-    ├── Inputs/         # 15 test cases
-    └── Outputs/        # Thư mục lưu lời giải
+    │   ├── app.py          # Tkinter GUI
+    │   └── display.py      # In bảng kết quả ở console
+    ├── solvers/            # Các file thuật toán giải
+    │   ├── pysat.py        
+    │   ├── astar.py        
+    │   ├── backtracking.py 
+    │   └── bruteforce.py   
+    ├── Inputs/             # 15 test cases
+    └── Outputs/            # Thư mục lưu lời giải
 ```
 
 ---
