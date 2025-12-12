@@ -1,4 +1,4 @@
-# Project 02 - Hashiwokakero Solver (CNF & Search)
+# Project 02 - Logic
 **Đồ án môn Cơ sở Trí tuệ Nhân tạo (CSC14003)**  
 **VNUHCM - University of Science**
 
