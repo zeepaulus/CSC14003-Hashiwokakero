@@ -36,7 +36,7 @@ Nối các đảo mang số sao cho:
 ### Các bước cài đặt nhanh
 ```bash
 git clone <repository-url>
-cd CSC14003-Intro2AI-Hashiwokakero
+cd CSC14003-Hashiwokakero
 # (khuyến nghị) python -m venv .venv && source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
