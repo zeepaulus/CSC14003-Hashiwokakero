@@ -18,8 +18,8 @@ Nối các đảo mang số sao cho:
 
 ### Thuật toán (4)
 - **PySAT**: Mã hóa CNF đầy đủ, giải bằng Glucose4 (CDCL).  
-- **A\***: Tìm kiếm với heuristic trên biến cầu, có propagate ràng buộc bậc và cấm giao.  
-- **Backtracking**: DPLL + Unit Propagation trên CNF, kiểm tra liên thông sau khi có lời giải.  
+- **A\***: Tìm kiếm với heuristic 
+- **Backtracking**: DPLL + Unit Propagation trên CNF.  
 - **Brute Force**: Liệt kê 0/1/2 cầu cho từng cạnh, chỉ phù hợp lưới nhỏ.
 
 ### Bộ test
@@ -102,15 +102,6 @@ CSC14003-Intro2AI-Hashiwokakero/
    - Backtracking: `recursive_calls`, `backtracks`  
    - BruteForce: `iterations`  
 4. **Timeout**: Đánh dấu trường hợp không xong trong thời gian đặt.
-
----
-
-## Tham khảo
-1. Knuth, D. E. (2015). _The Art of Computer Programming, Vol. 4, Fascicle 6: Satisfiability_.  
-2. Hart, P. E., Nilsson, N. J., & Raphael, B. (1968). A Formal Basis for the Heuristic Determination of Minimum Cost Paths. _IEEE TAC_.  
-3. Eén, N., & Sörensson, N. (2003). An Extensible SAT-solver. _SAT 2003_.
-
-> Report dùng BibLaTeX: thêm tài liệu vào `Report/refs/refs.bib`, trích dẫn bằng `\cite{...}`, compile với `biber` (xem `Report/main.tex`).
 
 ---
 
