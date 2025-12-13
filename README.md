@@ -31,7 +31,7 @@ Nối các đảo mang số sao cho:
 
 ### Yêu cầu
 - Python ≥ 3.8
-- Thư viện chính: `python-sat`, `numpy`, `matplotlib`, `notebook`, `ipykernel`
+- Thư viện chính: `python-sat`, `numpy`, `notebook`, `ipykernel`
 
 ### Các bước cài đặt nhanh
 ```bash
